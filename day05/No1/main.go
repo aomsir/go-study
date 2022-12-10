@@ -56,4 +56,5 @@ func main() {
 	// 获取新增主健的值
 	id, _ := response.LastInsertId()
 	fmt.Println(id)
+
 }
